@@ -2,7 +2,7 @@ import datetime
 import os
 import win32com.client
 
-###### O Path não pode conter acentuação ou ç
+###### O Path nao pode conter acentuacao ou cedilha
 
 path = ''
 
