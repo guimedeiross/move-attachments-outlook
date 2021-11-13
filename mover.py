@@ -6,6 +6,12 @@ import win32com.client
 
 path = ''
 
+###### Caso queira salvar em uma das pastas do usuario logado como desktop, documentos etc...
+
+# path = os.path.expanduser('~/Desktop/arquivos')
+
+################################
+
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
 
 ######## Caso Tenha mais de um arquivo PST ########
